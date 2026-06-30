@@ -7,9 +7,10 @@ const Logo = () => {
       <Image
         src="/logo.jpeg"
         alt="Nabh Records"
-        width={70}
-        height={70}
+        width={100}
+        height={100}
         priority
+        className="rounded-full"
       />
     </Link>
   );
